@@ -1,0 +1,38 @@
+{
+ "id": "/",
+ "name": "Nivesh Sahayak Trip Sheets",
+ "short_name": "NS Trip Sheets",
+ "description": "Free trip sheet for taxi operators, travel agencies and courier agents",
+ "start_url": "/",
+ "scope": "/",
+ "display": "standalone",
+ "display_override": [
+  "window-controls-overlay",
+  "standalone"
+ ],
+ "launch_handler": {
+  "client_mode": "focus-existing"
+ },
+ "background_color": "#F6F8FB",
+ "theme_color": "#0B3B5B",
+ "lang": "en-IN",
+ "shortcuts": [],
+ "icons": [
+  {
+   "src": "/icons/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "/icons/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png"
+  },
+  {
+   "src": "/icons/maskable-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ]
+}
